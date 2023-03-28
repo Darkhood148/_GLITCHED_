@@ -1,3 +1,3 @@
 # glitched
 
-It is a place to give everyone an idea about what your code does and for demos :)
+Welcome to PseudoGameFiles. The part that shouldn't be here. Probably. 🫤
