@@ -27,7 +27,8 @@ namespace Codes
                 //addText(words3);
                 stopSound(Glitch);
                 cs();
-                return Room1;
+                Application.Quit();
+                return "Room3";
             }
             else
             {
