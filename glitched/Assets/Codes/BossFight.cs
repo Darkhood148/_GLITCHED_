@@ -30,6 +30,7 @@ namespace Codes
             int counter = 0;
             int motCounter = 0;
             userInput = await displayAndWait(words4);
+            cs();
             if (userInput.ToLower() == "joe")
             {
                 string[] words5 = { "Joe who?" };
@@ -68,7 +69,10 @@ namespace Codes
             }
             cs();
             if (counter == 5)
+                {
+                stopSound(BossMusic);
                 return "BadEnding2";
+                }
             if (motCounter == 5)
                 motCounter--;
             if (health > 0)
